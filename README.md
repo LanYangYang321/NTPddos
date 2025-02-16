@@ -12,4 +12,10 @@ to exe: pyinstaller -F -w -i icon.ico attacker_with_ui.py
 
 to scan available monlist NTP servers, you may use scanner.py
 
+Explanatory video:
+
+https://www.youtube.com/watch?v=OQKr6GtSTp8
+
+https://www.bilibili.com/video/BV15vS3YpEt8
+
 This project follows MIT open source protocol
