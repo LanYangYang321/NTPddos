@@ -1,3 +1,11 @@
+#对其他设备或网络进行DDOS攻击是非法的！！
+#本项目只提供代码用于学习或研究！！
+#任何以非法方式使用本项目的行为与本项目的作者无关。
+#使用者应自行承担可能由此带来的法律后果和风险。
+# DDOS attacks on other devices or networks are illegal!!
+# This project only provides code for study or research!!
+# Any illegal use of the Project has nothing to do with the project author.
+# The user shall bear the legal consequences and risks that may result therefrom.
 import base64
 import tkinter as tk
 from collections import Counter
@@ -7,19 +15,40 @@ import threading
 import time
 from scapy.all import *
 from logo import *
-
+#对其他设备或网络进行DDOS攻击是非法的！！
+#本项目只提供代码用于学习或研究！！
+#任何以非法方式使用本项目的行为与本项目的作者无关。
+#使用者应自行承担可能由此带来的法律后果和风险。
+# DDOS attacks on other devices or networks are illegal!!
+# This project only provides code for study or research!!
+# Any illegal use of the Project has nothing to do with the project author.
+# The user shall bear the legal consequences and risks that may result therefrom.
 sending = Value('i', 0)
 
 
 def stop_filter(stop_event):
     return stop_event.is_set()
-
+#对其他设备或网络进行DDOS攻击是非法的！！
+#本项目只提供代码用于学习或研究！！
+#任何以非法方式使用本项目的行为与本项目的作者无关。
+#使用者应自行承担可能由此带来的法律后果和风险。
+# DDOS attacks on other devices or networks are illegal!!
+# This project only provides code for study or research!!
+# Any illegal use of the Project has nothing to do with the project author.
+# The user shall bear the legal consequences and risks that may result therefrom.
 
 def sniffer(collected_ips, all_packets, stop_event, adepter):
     # Sniffs incoming network traffic on UDP port 123
     sniff(filter="udp port 123", store=0, prn=lambda p: analyser(p, collected_ips, all_packets),
           iface="WLAN", stop_filter=lambda x: stop_filter(stop_event))
-
+#对其他设备或网络进行DDOS攻击是非法的！！
+#本项目只提供代码用于学习或研究！！
+#任何以非法方式使用本项目的行为与本项目的作者无关。
+#使用者应自行承担可能由此带来的法律后果和风险。
+# DDOS attacks on other devices or networks are illegal!!
+# This project only provides code for study or research!!
+# Any illegal use of the Project has nothing to do with the project author.
+# The user shall bear the legal consequences and risks that may result therefrom.
 
 def analyser(packet, collected_ips, all_packets):
     if len(packet) > 200 and packet.haslayer(IP):
@@ -27,7 +56,14 @@ def analyser(packet, collected_ips, all_packets):
         all_packets.append(ip_src)
         if ip_src not in collected_ips:
             collected_ips.append(ip_src)
-
+#对其他设备或网络进行DDOS攻击是非法的！！
+#本项目只提供代码用于学习或研究！！
+#任何以非法方式使用本项目的行为与本项目的作者无关。
+#使用者应自行承担可能由此带来的法律后果和风险。
+# DDOS attacks on other devices or networks are illegal!!
+# This project only provides code for study or research!!
+# Any illegal use of the Project has nothing to do with the project author.
+# The user shall bear the legal consequences and risks that may result therefrom.
 
 def get_available_monlist_servers(monlist_path, scantimes=2, fliter_magnification='1', adepter="WLAN", scandelay=0.02):
     collected_ips = []  # List to store collected IPs
@@ -195,6 +231,14 @@ class PacketSenderApp:
 
 
 if __name__ == "__main__":
+    #对其他设备或网络进行DDOS攻击是非法的！！
+    #本项目只提供代码用于学习或研究！！
+    #任何以非法方式使用本项目的行为与本项目的作者无关。
+    #使用者应自行承担可能由此带来的法律后果和风险。
+    # DDOS attacks on other devices or networks are illegal!!
+    # This project only provides code for study or research!!
+    # Any illegal use of the Project has nothing to do with the project author.
+    # The user shall bear the legal consequences and risks that may result therefrom.
     freeze_support()
     root = tk.Tk()
 
