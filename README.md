@@ -1,5 +1,13 @@
 # NTPddos
-A type of ddos exploiting the ntp servers through monlist request and ip forge
+
+WARNING!!!
+Comitting DDOS attack toward others device or network is ILLEGAL!!!
+This project only provide codes for study or researches ONLY!!
+Any user who use this project in ILLEGAL ways has nothing to do with this project and has nothing to do with the author of this project.
+Users should bear the legal consequences and risks that may be caused.
+
+
+A type of ddos exploiting the ntp servers through monlist request and ip forge.
 
 use python 3.9 to run
 
