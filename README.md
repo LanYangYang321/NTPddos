@@ -34,12 +34,12 @@ NTPddos is a tool that exploits NTP servers using the monlist request and IP for
 
 Use Python 3.9 to run the tool. You can execute the main script as follows:
 ```bash
-python attacker_with_ui.py
+python attacker.py
 ```
 
 For creating an executable with a UI:
 ```bash
-pyinstaller -F -w -i icon.ico attacker_with_ui.py
+pyinstaller -F -w -i icon.ico attacker.py
 ```
 
 ### Scanning for Available Monlist NTP Servers
