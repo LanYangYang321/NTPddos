@@ -1,29 +1,65 @@
 # NTPddos
 
-WARNING!!!
-Comitting DDOS attack toward others device or network is ILLEGAL!!!
-This project only provide codes for study or researches ONLY!!
-Any user who use this project in ILLEGAL ways has nothing to do with this project and has nothing to do with the author of this project.
-Users should bear the legal consequences and risks that may be caused.
+**WARNING!!!**  
+Conducting DDOS attacks on other devices or networks is **ILLEGAL**! This project is provided **ONLY for study and research purposes**. Any illegal use of this project is solely the responsibility of the user. The project author is not associated with any illegal activities resulting from the misuse of this tool.
 
+## Overview
 
-A type of ddos exploiting the ntp servers through monlist request and ip forge.
+NTPddos is a tool that exploits NTP servers using the monlist request and IP forgery techniques to perform a type of DDOS attack. This project is intended for educational and research purposes only.
 
-use python 3.9 to run
+## Requirements
 
-setup:
-1. git clone
-2. pip install -r requirements.txt
-3. install npcap packet (requirement for scapy lib, from https://npcap.com/#download)
+- **Python:** 3.9
+- **Dependencies:** See [requirements.txt](requirements.txt) for the list of required packages.
+- **Npcap:** Install Npcap (required for Scapy) from [https://npcap.com/#download](https://npcap.com/#download)
 
-to exe: pyinstaller -F -w -i icon.ico attacker_with_ui.py
+## Installation
 
-to scan available monlist NTP servers, you may use scanner.py
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/LanYangYang321/NTPddos.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd NTPddos
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Explanatory video:
+## Usage
 
-https://www.youtube.com/watch?v=OQKr6GtSTp8
+### Running the DDOS Tool
 
-https://www.bilibili.com/video/BV15vS3YpEt8
+Use Python 3.9 to run the tool. You can execute the main script as follows:
+```bash
+python attacker_with_ui.py
+```
 
-This project follows MIT open source protocol
+For creating an executable with a UI:
+```bash
+pyinstaller -F -w -i icon.ico attacker_with_ui.py
+```
+
+### Scanning for Available Monlist NTP Servers
+
+To scan for available NTP servers supporting the monlist request, run:
+```bash
+python scanner.py
+```
+
+## Explanatory Videos
+
+For more details and a demonstration, please watch the following videos:
+
+- [YouTube Video](https://www.youtube.com/watch?v=OQKr6GtSTp8)
+- [Bilibili Video](https://www.bilibili.com/video/BV15vS3YpEt8)
+
+## Legal Disclaimer
+
+This project is intended for educational and research purposes only. The author is not responsible for any misuse of this code. Users must bear all legal consequences and risks arising from any illegal activities performed using this tool.
+
+## License
+
+This project is licensed under the MIT License.
