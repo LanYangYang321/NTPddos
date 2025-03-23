@@ -1,7 +1,11 @@
 # NTPddos
+[![Bilibili 粉丝](https://img.shields.io/badge/dynamic/json?color=blue&label=BiliBili&labelColor=white&query=$.data.follower&url=https://api.bilibili.com/x/relation/stat?vmid=1084866085&logo=bilibili&style=flat-square)](https://space.bilibili.com/1084866085)
+[![YouTube](https://img.shields.io/badge/YouTube-white?logo=youtube&logoColor=FF0000&style=flat-square)](https://www.youtube.com/@lyyontop)
+[![GitHub last commit](https://img.shields.io/github/last-commit/LanYangYang321/NTP-DDOS?color=yellow&logo=github&labelColor=black&label=Latest&style=flat-square)](https://github.com/LanYangYang321/Clash-For-Python)
+
 
 **WARNING!!!**  
-Conducting DDOS attacks on other devices or networks is **ILLEGAL**! This project is provided **ONLY for study and research purposes**. Any illegal use of this project is solely the responsibility of the user. The project author is not associated with any illegal activities resulting from the misuse of this tool.
+Conducting DDOS attacks on others' devices or networks is **ILLEGAL**! This project is provided **ONLY for study and research purposes**. Any illegal use of this project is solely the responsibility of the user. The project author is not associated with any illegal activities resulting from the misuse of this tool.
 
 ## Overview
 
